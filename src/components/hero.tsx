@@ -6,15 +6,15 @@ import Typewriter from "./typewriter";
 
 export default function Hero(){
  return(
-  <section className="flex justify-between  bg-black">
-<div className="my-9 mx-9 md:flex justify-center">
-<Image className="mx-6 my-9 border border-accent rounded-full " height={1000} width={2000} src="/profile pic.png" alt="profile"/>
+  <section className="sm:flex justify-between  bg-black">
+<div className=" mx-9  sm:flex justify-center">
+<Image className="sm:mx-6 border sm:h border-accent rounded-full " height={500} width={2000} src="/profile pic.png" alt="profile"/>
 </div>
- <div className="my-9 mx-9 "> 
-  <h1 className="text-7xl mx-3 my-4 text-rose-700 font-serif"><b>< Typewriter/> </b></h1>
+ <div className="sm:my-9 sm:mx-9 "> 
+  <h1 className="sm:text-7xl sm:mx-3 sm:my-4 text-rose-700 font-serif"><b>< Typewriter/> </b></h1>
 
  
- <p className="text-3xl mx-3 my-4 text-white">I am Web developer and First Year Student,exploring the intersection of business and technology
+ <p className="sm:text-3xl sm:mx-3 sm:my-4 text-white">I am Web developer and First Year Student,exploring the intersection of business and technology
   through cloud applied generative AI engineering.My journey is about mastering the latest
   AI tools to enhance web development and drive business innovation.
  </p>

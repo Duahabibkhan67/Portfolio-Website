@@ -2,8 +2,8 @@ import Image from "next/image"
 export default function SKill(){
  return(
   <div>
-   <h1 className="text-6xl text-rose-700 font-serif flex justify-center my-11 "><b>Skills:</b></h1>
-   <p className="text-4xl text-white flex justify-center font-serif my-5 "><u>Here are my Skills:</u></p>
+   <h1 className="sm:text-6xl text-rose-700 font-serif flex justify-center my-11 "><b>Skills:</b></h1>
+   <p className="sm:text-4xl text-white flex justify-center font-serif my-5 "><u>Here are my Skills:</u></p>
    <section className="sm:grid grid-cols-3">
     <div >
     <Image  className="mx-11 my-9 hover:scale-110" height={150}  width={150} src="/html logo.png" alt="html" />
