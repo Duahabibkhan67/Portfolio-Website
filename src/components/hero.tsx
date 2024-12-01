@@ -8,7 +8,7 @@ export default function Hero(){
  return(
   <section className="sm:flex justify-between  bg-black">
 <div className=" mx-9  sm:flex justify-center">
-<Image className="sm:mx-6 border sm:h border-accent rounded-full " height={500} width={2000} src="/profile pic.png" alt="profile"/>
+<Image className="sm:mx-6 my-9 border sm:h border-accent rounded-full " height={300} width={2300} src="/profile pic.png" alt="profile"/>
 </div>
  <div className="sm:my-9 sm:mx-9 "> 
   <h1 className="sm:text-7xl sm:mx-3 sm:my-4 text-rose-700 font-serif"><b>< Typewriter/> </b></h1>

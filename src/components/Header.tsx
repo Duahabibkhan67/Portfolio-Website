@@ -7,10 +7,10 @@ import Link from "next/link";
 
  return(
   <div>
-   <header className="sm:flex  justify-between bg-black">
+   <header className="sm:flex  justify-between bg-black ">
    
     <div>
-    <h1 className="sm:text-6xl mx-8   text-rose-700 font-serif"><b>DUA_HABIB</b></h1>
+    <h1 className="sm:text-6xl mx-9 my-8   text-rose-700 font-serif"><b>DUA_HABIB</b></h1>
     </div>
     <div className="">
    <Link href="/">  <button className="mx-8 sm:text-2xl my-6 text-white hover:scale-110"><b>Home</b></button></Link>
