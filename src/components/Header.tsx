@@ -1,13 +1,11 @@
-
+'use client'
 import Link from "next/link";
-import Image from "next/image";
+
 import { TiThMenu } from "react-icons/ti";
 import {
  Sheet,
  SheetContent,
- SheetDescription,
- SheetHeader,
- SheetTitle,
+
  SheetTrigger,
 } from "@/components/ui/sheet";
 
