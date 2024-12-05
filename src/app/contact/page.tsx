@@ -5,7 +5,7 @@ export default function Aboutme(){
 return(
  <main className="bg-black ">
 
- <h1  className="sm:flex justify-center  text-white sm:text-5xl font-serif  mx-11   "><b><u>CONTACT:</u></b></h1>
+ <h1  className="sm:flex justify-center  text-white text-4xl lg:text-5xl font-serif  mx-11   "><b><u>CONTACT:</u></b></h1>
  <div className="sm:flex justify-between">
   <section className="bg-slate-900 sm:w-96 border border-accent rounded-2xl sm:mx-11 my-11">
 

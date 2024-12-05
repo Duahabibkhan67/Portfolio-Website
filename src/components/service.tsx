@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Service(){
  return(
 <main>
- <h1 className="flex justify-center"><p className="text-rose-700 font-serif sm:text-7xl"><b>S</b></p><b className= "font-serif text-white sm:text-7xl">ervices</b></h1>
+ <h1 className="flex justify-center"><p className="text-rose-700 font-serif text-6xl lg:text-7xl"><b>S</b></p><b className= "font-serif text-white text-6xl lg:text-7xl">ervices</b></h1>
 <section className="sm:grid grid-cols-3 mx-6 my-11">
  <div data-aos="fade-right"
      data-aos-offset="300"

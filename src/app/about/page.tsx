@@ -7,7 +7,7 @@ return(
 <Image className=" sm:flex sm:mx-7  rounded-full " height={300} width={300} src="/profile pic.png" alt="profile"/>
 </div>
  <div className="my-9 mx-9 justify-center "> 
-  <h1 className="sm:text-7xl sm:ml-80 my-11 text-rose-700 font-serif"><b>A</b><b className="text-white">BOUT ME:</b></h1>
+  <h1 className="text-5xl lg:text-7xl sm:ml-80 my-11 text-rose-700 font-serif"><b>A</b><b className="text-white">BOUT ME:</b></h1>
  <p className="sm:text-2xl sm:mx-11 text-white">My journey in tech was significantly shaped by 
   completing a Typescript course at the Governer Initiative Artificial Intelligience Course
   (GIAIC).It was here that I also embarked on learning Cloud Applied Generative AI engineering

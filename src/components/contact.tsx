@@ -6,7 +6,7 @@ export default function Contact(){
   <main>
    <section className="">
    <section className="sm:mx-8">
-<h1 className="font-serif sm:text-8xl sm:mx-3 text-rose-700"><b>Stay Touch <br /> By Contact Me</b></h1>
+<h1 className="font-serif text-6xl lg:text-8xl sm:mx-3 text-rose-700"><b>Stay Touch <br /> By Contact Me</b></h1>
 <p className="sm:text-2xl text-white  sm:my-6 flex justify-center">If anyone want website so you can contact me!</p>
    </section>
   <div className="flex justify-center ">

@@ -9,7 +9,7 @@ export default function About(){
 <Image className="  rounded-full sm:h-30 sm:w-30"  height={300} width={300} src="/profile pic.png" alt="poster"/>
 </div>
 <div className="">
- <h1 className="text-white sm:text-5xl sm:my-9 sm:flex justify-center"><b><u>About Me:</u> </b></h1>
+ <h1 className="text-white text-3xl mx-9 lg:mx-0 lg:text-5xl sm:my-9 sm:flex justify-center"><b><u>About Me:</u> </b></h1>
  <h1 className="text-rose-500 sm:text-5xl font-serif sm:mx-11 sm:flex sm:justify-center ">Crafting 
  <Typewriter
   options={{
