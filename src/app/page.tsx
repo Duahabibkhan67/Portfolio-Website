@@ -1,14 +1,16 @@
 'use client';
 
 import About from "@/components/about";
-import SKill from "@/components/skill";
 import Hero from "@/components/hero";
 import Project from "@/components/project";
 import Service from "@/components/service";
-import Contact from "@/components/contact";
+import Contact from "@/components/contactlabel";
+import ScrollingLogoTicker from "@/components/scrollinglogo";
+import Achievement from "@/components/achieve";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+
 
 export default function Home(){
  useEffect(()=>{
@@ -26,10 +28,13 @@ export default function Home(){
 <main className="bg-black scroll-smooth">
 <div className="bg-black">
 < Hero />
+< ScrollingLogoTicker />
 <About />
+
 < Project />
-< SKill />
 < Service />
+< Achievement />
+
 < Contact />
 
 </div>

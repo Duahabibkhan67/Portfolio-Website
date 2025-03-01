@@ -4,8 +4,8 @@ import { Typewriter } from 'react-simple-typewriter';
 const TypewriterEffect = () => {
   return (
     <div className="text-center mt-10">
-      <h1 className="text-7xl mb-4">Hello,</h1>
-      <h1 className="text-7xl">
+      <h1 className="text-5xl mb-4">Hello,</h1>
+      <h1 className="text-5xl">
         <Typewriter
           words ={['I am Dua Habib']}
           loop={true}
